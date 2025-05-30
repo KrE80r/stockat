@@ -156,12 +156,11 @@ function initializeTable() {
                 }
             },
             {
-                targets: [4, 5], // Price targets
-                render: function(data, type, row, meta) {
+                targets: 4, // Current Price column
+                render: function(data, type, row) {
                     if (type === 'display') {
                         if (data && data > 0) {
-                            const colorClass = meta.col === 4 ? 'price-high' : 'price-low';
-                            return `<span class="price-target ${colorClass}">$${data.toFixed(2)}</span>`;
+                            return `<span class="price-current">$${data.toFixed(2)}</span>`;
                         }
                         return '<span class="text-muted">N/A</span>';
                     }
@@ -169,7 +168,31 @@ function initializeTable() {
                 }
             },
             {
-                targets: 6, // Actions column
+                targets: 5, // Target High column
+                render: function(data, type, row) {
+                    if (type === 'display') {
+                        if (data && data > 0) {
+                            return `<span class="price-target price-high">$${data.toFixed(2)}</span>`;
+                        }
+                        return '<span class="text-muted">N/A</span>';
+                    }
+                    return data;
+                }
+            },
+            {
+                targets: 6, // Target Low column
+                render: function(data, type, row) {
+                    if (type === 'display') {
+                        if (data && data > 0) {
+                            return `<span class="price-target price-low">$${data.toFixed(2)}</span>`;
+                        }
+                        return '<span class="text-muted">N/A</span>';
+                    }
+                    return data;
+                }
+            },
+            {
+                targets: 7, // Actions column
                 orderable: false,
                 render: function(data, type, row) {
                     if (type === 'display') {
