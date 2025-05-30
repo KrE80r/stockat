@@ -1,12 +1,21 @@
-/* Custom CSS Variables */
+/* Custom CSS Variables - Gustav Klimt Inspired Palette */
 :root {
-    --primary-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    --success-gradient: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);
-    --warning-gradient: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
-    --danger-gradient: linear-gradient(135deg, #fa709a 0%, #fee140 100%);
-    --dark-gradient: linear-gradient(135deg, #1e3c72 0%, #2a5298 100%);
-    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
-    --hover-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+    /* Main colors from Klimt palette */
+    --prussian-blue: #0B3C5D;
+    --sky-blue: #328CC1;
+    --gold-leaf: #D9B310;
+    --ivory-black: #1D2731;
+    
+    /* Gradients */
+    --primary-gradient: linear-gradient(135deg, #0B3C5D 0%, #328CC1 100%);
+    --success-gradient: linear-gradient(135deg, #328CC1 0%, #0B3C5D 100%);
+    --warning-gradient: linear-gradient(135deg, #D9B310 0%, #A88A00 100%);
+    --danger-gradient: linear-gradient(135deg, #D9B310 0%, #D95B10 100%);
+    --dark-gradient: linear-gradient(135deg, #1D2731 0%, #0B3C5D 100%);
+    
+    /* UI elements */
+    --card-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
+    --hover-shadow: 0 15px 40px rgba(0, 0, 0, 0.4);
     --border-radius: 12px;
     --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -14,17 +23,19 @@
 /* Global Styles */
 body {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+    background: var(--ivory-black);
+    color: #f5f7fa;
     min-height: 100vh;
     padding-top: 76px;
 }
 
 /* Hero Section */
 .hero-section {
-    background: var(--primary-gradient);
+    background: var(--dark-gradient);
     padding: 80px 0;
     position: relative;
     overflow: hidden;
+    border-bottom: 3px solid var(--gold-leaf);
 }
 
 .hero-section::before {
@@ -45,9 +56,9 @@ body {
 
 /* Stat Cards */
 .stat-card {
-    background: rgba(255, 255, 255, 0.15);
+    background: rgba(217, 179, 16, 0.15);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    border: 1px solid var(--gold-leaf);
     border-radius: var(--border-radius);
     padding: 20px;
     text-align: center;
@@ -57,13 +68,13 @@ body {
 
 .stat-card:hover {
     transform: translateY(-5px);
-    background: rgba(255, 255, 255, 0.25);
+    background: rgba(217, 179, 16, 0.25);
 }
 
 .stat-number {
     font-size: 2rem;
     font-weight: 700;
-    color: white;
+    color: var(--gold-leaf);
     line-height: 1;
 }
 
@@ -86,46 +97,49 @@ body {
 
 /* Filter Section */
 .filter-section {
-    background: white;
+    background: rgba(11, 60, 93, 0.4);
     border-radius: var(--border-radius);
     padding: 30px;
     box-shadow: var(--card-shadow);
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--prussian-blue);
 }
 
 .form-label {
-    color: #495057;
+    color: #f5f7fa;
     margin-bottom: 8px;
 }
 
 .form-select, .form-range {
     border-radius: 8px;
-    border: 2px solid #e9ecef;
+    border: 2px solid var(--prussian-blue);
+    background-color: rgba(29, 39, 49, 0.8);
+    color: #f5f7fa;
     transition: var(--transition);
 }
 
 .form-select:focus, .form-range:focus {
-    border-color: #667eea;
-    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+    border-color: var(--gold-leaf);
+    box-shadow: 0 0 0 0.2rem rgba(217, 179, 16, 0.25);
 }
 
 /* Table Container */
 .table-container {
-    background: white;
+    background: rgba(11, 60, 93, 0.2);
     border-radius: var(--border-radius);
     box-shadow: var(--card-shadow);
     overflow: hidden;
-    border: 1px solid rgba(0, 0, 0, 0.05);
+    border: 1px solid var(--prussian-blue);
 }
 
 /* DataTable Styling */
 .table {
     margin-bottom: 0;
+    color: #f5f7fa;
 }
 
 .table thead th {
-    background: var(--primary-gradient);
-    color: white;
+    background: var(--dark-gradient);
+    color: var(--gold-leaf);
     border: none;
     font-weight: 600;
     padding: 20px 15px;
@@ -136,11 +150,11 @@ body {
 .table tbody td {
     padding: 15px;
     vertical-align: middle;
-    border-bottom: 1px solid #f8f9fa;
+    border-bottom: 1px solid rgba(50, 140, 193, 0.2);
 }
 
 .table tbody tr:hover {
-    background: linear-gradient(135deg, #f8f9ff 0%, #f0f4ff 100%);
+    background: linear-gradient(135deg, rgba(11, 60, 93, 0.5) 0%, rgba(29, 39, 49, 0.7) 100%);
 }
 
 /* Recommendation Badges */
@@ -184,7 +198,7 @@ body {
 .confidence-bar {
     width: 100%;
     height: 8px;
-    background: #e9ecef;
+    background: rgba(29, 39, 49, 0.5);
     border-radius: 4px;
     overflow: hidden;
     position: relative;
@@ -194,7 +208,7 @@ body {
     height: 100%;
     border-radius: 4px;
     transition: var(--transition);
-    background: var(--success-gradient);
+    background: linear-gradient(135deg, var(--gold-leaf) 0%, var(--sky-blue) 100%);
 }
 
 .confidence-text {
@@ -207,15 +221,21 @@ body {
 .price-target {
     font-family: 'Monaco', 'Menlo', monospace;
     font-weight: 600;
-    color: #495057;
+    color: #f5f7fa;
+}
+
+.price-current {
+    font-family: 'Monaco', 'Menlo', monospace;
+    font-weight: 600;
+    color: var(--sky-blue);
 }
 
 .price-high {
-    color: #28a745;
+    color: var(--gold-leaf);
 }
 
 .price-low {
-    color: #dc3545;
+    color: #f5f7fa;
 }
 
 /* Action Buttons */
@@ -240,10 +260,11 @@ body {
 
 /* Loading and Error States */
 #loadingSpinner {
-    background: white;
+    background: rgba(11, 60, 93, 0.3);
     border-radius: var(--border-radius);
     box-shadow: var(--card-shadow);
     padding: 60px 30px;
+    color: var(--gold-leaf);
 }
 
 .spinner-border {
@@ -256,17 +277,26 @@ body {
     border: none;
     border-radius: var(--border-radius);
     box-shadow: var(--hover-shadow);
+    background-color: var(--ivory-black);
+    color: #f5f7fa;
+    border: 1px solid var(--prussian-blue);
 }
 
 .modal-header {
-    background: var(--primary-gradient);
-    color: white;
+    background: var(--dark-gradient);
+    color: var(--gold-leaf);
     border-radius: var(--border-radius) var(--border-radius) 0 0;
     border: none;
+    border-bottom: 2px solid var(--gold-leaf);
+}
+
+.modal-body {
+    background-color: rgba(11, 60, 93, 0.2);
 }
 
 .modal-header .btn-close {
     filter: invert(1);
+    opacity: 0.8;
 }
 
 /* Footer */
@@ -279,7 +309,9 @@ footer {
 .dataTables_wrapper .dataTables_length select,
 .dataTables_wrapper .dataTables_filter input {
     border-radius: 6px;
-    border: 2px solid #e9ecef;
+    border: 2px solid var(--prussian-blue);
+    background-color: rgba(29, 39, 49, 0.8);
+    color: #f5f7fa;
     padding: 8px 12px;
 }
 
@@ -298,7 +330,7 @@ footer {
 }
 
 .dataTables_wrapper .dataTables_info {
-    color: #6c757d;
+    color: #f5f7fa;
     font-weight: 500;
 }
 
@@ -342,7 +374,7 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-    background: #f1f1f1;
+    background: var(--ivory-black);
     border-radius: 4px;
 }
 
