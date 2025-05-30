@@ -94,6 +94,7 @@ function initializeTable() {
         row['Sector'] || '',
         row['Recommendation'] || '',
         parseFloat(row['Confidence Level (%)']) || 0,
+        parseFloat(row['Current Price (AU$)']) || 0,
         parseFloat(row['Predicted High Price in a Year']) || 0,
         parseFloat(row['Predicted Low Price in a Year']) || 0,
         '' // Actions column
@@ -155,7 +156,29 @@ function initializeTable() {
                 }
             },
             {
-                targets: [4, 5], // Price targets
+                targets: 4, // Current price column
+                render: function(data, type, row) {
+                    if (type === 'display') {
+                        if (data && data > 0) {
+                            return `<span class="current-price">$${data.toFixed(2)}</span>`;
+                        }
+                        return '<span class="text-muted">N/A</span>';
+                    }
+                    return data;
+                }
+            },
+            {
+                targets: [5, 6], // Price targets
+                render: function(data, type, row, meta) {
+                    if (type === 'display') {
+                        if (data && data > 0) {
+                            const colorClass = meta.col === 5 ? 'price-high' : 'price-low';
+                            return `<span class="price-target ${colorClass}">$${data.toFixed(2)}</span>`;
+                        }
+                        return '<span class="text-muted">N/A</span>';
+                    }
+                    return data;
+                }
                 render: function(data, type, row, meta) {
                     if (type === 'display') {
                         if (data && data > 0) {
@@ -168,7 +191,7 @@ function initializeTable() {
                 }
             },
             {
-                targets: 6, // Actions column
+                targets: 7, // Actions column
                 orderable: false,
                 render: function(data, type, row) {
                     if (type === 'display') {

@@ -371,4 +371,4 @@ footer {
     height: 20px;
     margin-right: 8px;
     opacity: 0.7;
-} 
+} .current-price { font-weight: 600; color: #2563eb; background: linear-gradient(135deg, #e0f2fe 0%, #bbdefb 100%); padding: 4px 8px; border-radius: 6px; font-size: 0.9em; border: 1px solid #64b5f6; }

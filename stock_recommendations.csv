@@ -1,494 +1,494 @@
-Stock Symbol,Sector,Recommendation,Confidence Level (%),Predicted High Price in a Year,Predicted Low Price in a Year
-CBA,Financial,Strong Sell,62.5,143.0,97.49
-BHP,Materials,Hold,52.08,48.69,20.01
-RIO,Materials,Hold,31.25,140.79,115.0
-CSL,Health Care,Strong Buy,60.0,320.0,304.59
-NAB,Financial,Hold,20.0,39.14,28.0
-WBC,Financial,Moderate Sell,40.0,36.0,27.01
-WES,Consumer Cyclical,Hold,27.08,87.31,60.0
-NEM,Materials,Strong Buy,60.0,95.5,73.0
-ANZ,Financial,Hold,37.5,31.39,24.5
-MQG,Financial,Hold,20.0,235.01,199.01
-GMG,Real Estate,Strong Buy,60.0,40.0,30.8
-RMD,Health Care,Strong Buy,62.5,49.3,40.54
-TLS,Communication Services,Moderate Buy,40.0,5.27,4.0
-FMG,Materials,Hold,35.42,20.01,15.0
-TCL,Industrials,Hold,33.33,14.59,12.65
-WDS,Energy,Hold,35.42,33.0,21.5
-ALL,Consumer Cyclical,Strong Buy,68.75,79.0,64.0
-WOW,Consumer Defensive,Hold,31.25,36.47,30.46
-SIG,Health Care,Hold,20.0,3.44,2.54
-WTC,Technology,Strong Buy,60.0,144.99,100.0
-QBE,Financial,Strong Buy,60.0,25.5,21.0
-REA,Communication Services,Moderate Buy,40.0,294.0,210.01
-AMC,Consumer Cyclical,Strong Buy,60.0,20.31,14.0
-BXB,Industrials,Hold,20.83,24.91,17.94
-PME,Health Care,Hold,20.0,280.0,219.99
-NST,Materials,Strong Buy,60.0,26.81,18.3
-COL,Consumer Defensive,Moderate Buy,40.0,23.51,19.0
-XRO,Technology,Strong Buy,60.0,219.99,180.0
-NWS,Communication Services,Strong Buy,60.0,68.0,54.0
-CPU,Financial,Hold,20.0,42.0,33.99
-SUN,Financial,Strong Buy,60.0,22.74,19.2
-STO,Energy,Strong Buy,60.0,8.49,6.39
-URW,General,Hold,20.0,6.91,6.91
-SGH,Industrials,Strong Buy,60.0,60.01,54.0
-IAG,Financial,Moderate Buy,40.0,10.0,7.95
-SCG,Real Estate,Strong Buy,60.0,4.34,3.62
-ORG,Energy,Hold,20.0,11.7,9.26
-COH,Health Care,Moderate Buy,40.0,300.01,266.99
-EVN,Materials,Hold,35.42,8.49,5.6
-QAN,Industrials,Strong Buy,60.0,11.96,11.4
-JHX,Materials,Moderate Buy,40.0,54.0,39.5
-ASX,Financial,Moderate Sell,40.0,67.5,56.15
-SOL,Financial,Hold,20.0,37.49,37.49
-S32,Materials,Moderate Buy,50.0,7.13,2.62
-CAR,Communication Services,Strong Buy,60.0,42.01,33.0
-TNE,Technology,Hold,35.42,43.49,33.03
-SGP,Real Estate,Strong Buy,60.0,6.01,5.37
-MPL,Financial,Hold,27.08,5.1,4.45
-SHL,Health Care,Hold,20.0,32.2,26.5
-TLC,Consumer Cyclical,Strong Buy,60.0,5.6,5.15
-JBH,Consumer Cyclical,Hold,20.0,114.0,73.6
-VCX,Real Estate,Hold,20.0,2.4,2.27
-APA,Utilities,Strong Buy,60.0,8.85,8.14
-BSL,Materials,Strong Buy,60.0,29.0,24.0
-REH,Industrials,Strong Sell,60.0,17.0,16.4
-TPG,Communication Services,Hold,20.0,5.8,4.2
-ORI,Materials,Strong Buy,75.0,22.99,18.9
-MGR,Real Estate,Hold,20.0,2.35,2.29
-GPT,Real Estate,Strong Buy,60.0,5.66,4.99
-TLX,Health Care,Strong Buy,60.0,36.0,33.99
-CHC,Real Estate,Moderate Buy,40.0,20.01,15.49
-SEK,Communication Services,Strong Buy,60.0,30.1,24.6
-NXT,Technology,Strong Buy,60.0,20.15,16.51
-RHC,Health Care,Hold,27.08,40.99,37.4
-ALQ,Industrials,Moderate Buy,40.0,20.5,14.59
-NWL,Financial,Hold,29.17,31.6,15.4
-ALX,Industrials,Hold,20.0,6.08,5.09
-QUB,Industrials,Moderate Buy,40.0,4.79,4.2
-DXS,Real Estate,Hold,20.0,9.02,7.41
-360,Technology,Strong Buy,60.0,32.0,27.1
-LYC,Materials,Hold,20.0,10.41,5.31
-EDV,Real Estate,Hold,33.33,5.2,4.1
-AGL,Utilities,Hold,20.0,11.99,11.4
-WOR,Energy,Strong Buy,60.0,22.0,15.85
-BEN,Financial,Hold,27.08,11.61,8.93
-HVN,Consumer Cyclical,Moderate Sell,40.0,6.01,4.0
-HUB,Financial,Hold,25.0,90.73,43.35
-TWE,Consumer Defensive,Strong Buy,60.0,14.0,8.9
-SDF,Financial,Strong Buy,60.0,6.8,6.5
-GQG,Financial,Strong Buy,60.0,3.2,2.63
-CWY,Industrials,Strong Buy,60.0,3.41,2.99
-ALD,Energy,Strong Buy,60.0,35.0,23.51
-NXG,General,Strong Buy,60.0,14.1,12.3
-SFR,Materials,Hold,33.33,13.15,6.75
-CGF,Financial,Strong Buy,60.0,9.15,6.46
-AZJ,Industrials,Hold,22.92,3.8,3.1
-PRU,Materials,Strong Buy,60.0,5.01,3.5
-BOQ,Financial,Moderate Sell,40.0,7.05,5.65
-GMD,Materials,Hold,29.17,5.15,3.75
-DNL,Materials,Hold,33.33,3.59,2.5
-WHC,Energy,Moderate Buy,40.0,7.7,4.6
-ANN,Health Care,Hold,20.0,36.2,31.05
-APE,Consumer Cyclical,Hold,20.0,20.35,14.8
-MIN,Materials,Moderate Buy,40.0,40.0,15.49
-PLS,Materials,Strong Buy,60.0,2.89,1.49
-PNI,Financial,Strong Buy,60.0,25.1,19.5
-BKW,Materials,Strong Buy,60.0,31.6,25.0
-BRG,Consumer Cyclical,Hold,29.17,41.1,29.99
-AUB,Financial,Strong Buy,60.0,38.7,35.58
-CMM,Materials,Strong Buy,60.0,10.6,8.4
-LLC,Real Estate,Hold,20.0,7.79,6.21
-VNT,Industrials,Hold,20.0,5.0,4.45
-RRL,Materials,Hold,25.0,5.6,2.71
-GOR,Materials,Hold,33.33,3.55,2.71
-RWC,Industrials,Strong Buy,60.0,5.55,4.5
-NHF,Financial,Hold,20.83,8.0,5.55
-PMV,Consumer Cyclical,Hold,29.17,29.5,21.6
-RMS,Materials,Strong Buy,60.0,3.55,2.6
-NHC,Energy,Hold,20.0,4.6,2.89
-CDA,Technology,Strong Buy,60.0,18.5,17.0
-LOV,Consumer Cyclical,Hold,20.0,35.28,23.05
-NSR,Real Estate,Strong Buy,60.0,2.7,2.37
-AMP,Financial,Moderate Buy,40.0,1.62,1.2
-SUL,Consumer Cyclical,Moderate Buy,40.0,16.5,12.2
-GYG,Consumer Cyclical,Moderate Buy,40.0,42.88,29.0
-IGO,Materials,Moderate Buy,40.0,6.01,3.2
-BPT,Energy,Hold,33.33,1.74,1.15
-WAF,Materials,Strong Buy,60.0,4.54,2.8
-VEA,Energy,Hold,22.92,3.43,1.52
-EMR,Materials,Moderate Sell,40.0,5.94,3.59
-FLT,Consumer Cyclical,Strong Buy,60.0,19.31,12.8
-VAU,Materials,Strong Buy,60.0,0.76,0.55
-CLW,Real Estate,Hold,20.0,4.4,4.18
-SGM,Materials,Hold,20.0,15.49,11.99
-NIC,Materials,Moderate Buy,40.0,1.6,0.55
-WGX,Materials,Strong Buy,60.0,4.4,3.5
-SPR,Materials,Strong Buy,60.0,2.4,2.4
-RGN,Real Estate,Strong Buy,60.0,2.64,2.3
-DHG,Communication Services,Hold,20.0,4.43,3.25
-TUA,Communication Services,Strong Buy,60.0,7.1,7.0
-HDN,Real Estate,Strong Buy,60.0,1.35,1.33
-EVT,Communication Services,Strong Buy,60.0,19.0,16.12
-TPW,Consumer Cyclical,Strong Buy,60.0,21.1,17.6
-PDN,Energy,Strong Buy,60.0,12.79,5.69
-ARB,Consumer Cyclical,Hold,20.0,39.55,31.01
-NEC,Communication Services,Strong Buy,60.0,1.8,1.75
-BWP,Real Estate,Strong Buy,60.0,4.05,4.05
-ZIP,Financial,Strong Buy,60.0,3.5,2.5
-ORA,Consumer Cyclical,Hold,29.17,2.4,2.02
-REG,Health Care,Strong Buy,60.0,10.25,7.75
-INA,Real Estate,Hold,20.0,6.5,6.3
-CQR,Real Estate,Strong Buy,60.0,4.03,3.53
-IFL,Financial,Hold,20.0,4.99,4.0
-DMP,Consumer Cyclical,Hold,20.0,39.0,31.81
-PXA,Real Estate,Strong Buy,60.0,17.4,13.2
-ASB,Industrials,Hold,20.0,4.74,3.76
-MP1,Technology,Strong Buy,60.0,15.49,9.01
-CIA,Materials,Strong Buy,75.0,9.01,5.71
-IEL,Consumer Cyclical,Moderate Buy,40.0,18.09,9.57
-GDG,Real Estate,Strong Buy,60.0,6.04,5.3
-MSB,Health Care,Hold,20.0,3.41,2.4
-PPT,Financial,Hold,20.0,22.81,15.44
-HMC,Real Estate,Strong Buy,60.0,12.4,5.2
-OBM,Materials,Hold,20.0,1.25,1.03
-DBI,Industrials,Strong Buy,60.0,4.35,4.35
-DRR,Materials,Moderate Buy,40.0,4.9,3.6
-CTD,Consumer Cyclical,Strong Buy,60.0,16.06,11.79
-ASK,Real Estate,Strong Buy,60.0,1.7,1.4
-CIP,Real Estate,Strong Buy,60.0,3.82,2.85
-GOZ,Real Estate,Strong Buy,60.0,2.6,2.6
-WEB,Consumer Cyclical,Strong Buy,60.0,7.97,0.79
-DGT,Real Estate,Strong Buy,60.0,5.8,5.2
-OCL,Technology,Hold,20.0,16.75,16.0
-SMR,Materials,Strong Buy,60.0,5.37,2.4
-SNL,Consumer Cyclical,Strong Buy,60.0,39.1,36.4
-BAP,Industrials,Hold,20.83,6.01,5.33
-NEU,Health Care,Strong Buy,60.0,31.46,20.01
-ADT,Materials,Hold,20.0,4.74,4.54
-WPR,Real Estate,Hold,20.0,2.7,2.5
-MND,Industrials,Hold,20.0,19.5,15.76
-GNC,Industrials,Strong Buy,60.0,9.75,7.45
-BGA,Consumer Defensive,Strong Buy,60.0,7.05,7.05
-BOE,Materials,Strong Buy,62.5,6.01,2.71
-JDO,Financial,Strong Buy,60.0,2.4,1.55
-ILU,Materials,Strong Buy,60.0,6.5,4.4
-NCK,Real Estate,Strong Buy,60.0,21.0,19.9
-IRE,Technology,Strong Buy,60.0,10.79,10.79
-CYL,Materials,Strong Buy,60.0,7.15,6.43
-MAQ,Communication Services,Hold,20.0,101.89,65.8
-ARF,Real Estate,Hold,20.0,4.1,3.98
-MGH,Industrials,Strong Buy,60.0,4.95,4.75
-DDR,Technology,Strong Buy,60.0,11.09,9.12
-LTR,Materials,Hold,31.25,0.9,0.3
-PRN,Materials,Moderate Buy,40.0,1.7,1.4
-MFG,Financial,Hold,20.0,9.89,6.31
-HLI,Financial,Strong Sell,60.0,3.92,3.25
-IMD,Industrials,Hold,20.83,3.2,2.64
-ING,Consumer Defensive,Hold,20.0,3.67,3.53
-BGL,Materials,Strong Buy,60.0,1.9,0.77
-CAT,Technology,Strong Buy,60.0,6.01,4.6
-SLC,Communication Services,Strong Buy,60.0,2.88,2.12
-CNI,Real Estate,Hold,20.0,1.9,1.74
-DYL,Energy,Strong Buy,60.0,1.7,1.0
-PNR,Materials,Moderate Buy,40.0,4.45,2.3
-NAN,Health Care,Moderate Buy,40.0,6.01,4.0
-RSG,Materials,Strong Buy,60.0,1.4,0.54
-IPH,Industrials,Strong Buy,60.0,8.0,6.75
-SDR,Consumer Cyclical,Strong Buy,60.0,7.11,4.45
-NWH,Industrials,Strong Buy,60.0,4.03,3.02
-MYR,Consumer Cyclical,Strong Buy,60.0,1.06,0.87
-MAF,Financial,Strong Buy,60.0,8.9,8.11
-KAR,Energy,Strong Buy,60.0,2.6,1.66
-MAD,Industrials,Strong Buy,60.0,6.7,6.7
-ABB,Communication Services,Strong Buy,60.0,5.16,3.9
-ELD,Consumer Defensive,Strong Buy,60.0,9.1,7.21
-LFS,Financial,Hold,20.0,1.3,1.3
-DTL,Technology,Strong Buy,60.0,8.1,8.1
-SSM,Industrials,Strong Buy,60.0,2.01,1.96
-IPX,Materials,Strong Buy,60.0,6.95,5.9
-DRO,Technology,Strong Buy,60.0,1.49,1.2
-AX1,Consumer Cyclical,Strong Buy,60.0,2.61,2.0
-MMS,Industrials,Hold,20.0,20.0,16.3
-AOV,Consumer Cyclical,Strong Buy,60.0,14.41,9.4
-ABG,Real Estate,Strong Buy,60.0,1.35,1.2
-HSN,Technology,Strong Buy,60.0,7.3,5.74
-DVP,Technology,Strong Buy,60.0,5.06,4.0
-SIQ,Industrials,Hold,20.0,9.01,7.95
-A4N,Materials,Strong Buy,60.0,2.0,2.0
-GEM,Consumer Defensive,Strong Buy,60.0,1.53,1.49
-RIC,Consumer Defensive,Strong Buy,60.0,2.8,2.8
-CMW,Real Estate,Strong Buy,60.0,0.45,0.45
-CKF,Consumer Cyclical,Strong Buy,60.0,10.13,8.0
-CCP,Financial,Strong Buy,60.0,20.77,16.41
-PDI,Materials,Strong Buy,60.0,0.56,0.56
-OML,Communication Services,Strong Buy,60.0,2.0,1.55
-NUF,Materials,Hold,20.83,4.5,1.96
-IDX,Health Care,Strong Buy,60.0,3.45,2.7
-DXI,Real Estate,Hold,20.0,2.95,2.65
-PNV,Health Care,Strong Buy,60.0,2.01,1.62
-SRG,Industrials,Strong Buy,60.0,1.8,1.8
-VUL,Materials,Strong Buy,60.0,10.0,6.1
-LIC,Real Estate,Strong Buy,60.0,11.5,8.99
-KLS,Industrials,Strong Buy,60.0,5.6,3.8
-VSL,Materials,Hold,20.0,7.25,7.25
-CBO,Real Estate,Strong Buy,60.0,2.25,1.95
-EQT,Financial,Strong Buy,60.0,35.0,35.0
-QAL,Real Estate,Strong Buy,60.0,3.95,3.95
-BCI,Materials,Strong Buy,60.0,0.48,0.48
-NXL,Technology,Hold,20.0,2.6,2.5
-AAC,Consumer Defensive,Strong Buy,60.0,1.9,1.9
-NGI,Financial,Strong Buy,60.0,2.64,2.4
-SLX,Technology,Strong Buy,60.0,6.5,6.46
-FCL,Technology,Strong Buy,60.0,2.47,2.0
-BLX,Consumer Cyclical,Strong Buy,60.0,3.96,3.96
-APZ,Real Estate,Strong Buy,60.0,3.87,3.87
-COF,Real Estate,Hold,20.0,1.14,1.05
-OPT,Health Care,Hold,20.0,1.0,0.05
-RPL,Financial,Strong Buy,60.0,3.6,3.3
-JLG,Industrials,Strong Buy,60.0,3.2,3.2
-SGLLV,Utilities,Strong Buy,60.0,11.85,11.85
-PYC,Health Care,Strong Buy,60.0,4.0,2.3
-CU6,Health Care,Strong Buy,60.0,8.25,4.7
-RUL,Technology,Strong Buy,60.0,3.48,3.48
-RFF,Real Estate,Hold,20.0,2.44,1.84
-MYS,Financial,Strong Buy,60.0,4.53,4.53
-PGC,Health Care,Strong Buy,60.0,0.53,0.53
-TEA,General,Strong Buy,60.0,3.8,3.0
-HLS,Health Care,Hold,22.92,1.64,0.94
-SHV,Consumer Defensive,Strong Buy,60.0,6.05,4.73
-FPR,Financial,Strong Buy,60.0,3.9,3.5
-AD8,Technology,Moderate Sell,40.0,9.51,6.3
-JIN,Consumer Cyclical,Hold,20.0,11.18,11.18
-FFM,Materials,Strong Buy,60.0,1.94,1.49
-PFP,Consumer Cyclical,Strong Buy,60.0,6.3,5.5
-MAH,Materials,Strong Buy,60.0,0.4,0.39
-GNP,Industrials,Strong Buy,60.0,3.39,3.3
-LLL,Materials,Strong Buy,60.0,1.9,1.9
-AFG,Financial,Strong Buy,60.0,1.8,1.8
-UNI,Consumer Cyclical,Strong Buy,60.0,10.53,10.53
-ACL,Health Care,Hold,20.0,3.3,3.3
-C79,Technology,Strong Buy,60.0,6.8,4.4
-BC8,Materials,Strong Buy,60.0,1.53,1.53
-CUV,Health Care,Strong Buy,60.0,39.45,39.45
-CWP,Real Estate,Strong Buy,60.0,7.3,7.15
-QOR,Technology,Strong Buy,60.0,0.65,0.56
-KCN,Materials,Strong Buy,60.0,4.0,4.0
-CVL,Industrials,Hold,20.0,1.2,1.1
-BMN,Energy,Strong Buy,60.0,5.34,3.73
-AMI,Materials,Strong Buy,60.0,0.4,0.33
-AEL,Energy,Strong Buy,60.0,0.33,0.23
-STX,Energy,Hold,20.0,0.31,0.19
-BRE,General,Strong Buy,60.0,7.0,4.45
-MLX,Materials,Hold,20.0,0.5,0.5
-IFM,Technology,Hold,20.0,1.5,1.5
-GNG,Industrials,Strong Buy,60.0,,
-AMA,Consumer Cyclical,Strong Buy,60.0,0.13,0.1
-TYR,Technology,Strong Buy,60.0,1.65,0.82
-HCW,Real Estate,Hold,20.0,1.2,0.89
-SXE,Industrials,Strong Buy,60.0,2.53,2.23
-TCG,Materials,Strong Buy,60.0,1.31,1.01
-ALK,Materials,Strong Buy,60.0,1.4,0.7
-MAU,Materials,Strong Buy,60.0,2.53,2.53
-CHN,Materials,Strong Buy,60.0,5.79,1.01
-LOT,Materials,Strong Buy,60.0,0.38,0.22
-SVM,Materials,Strong Buy,60.0,1.13,1.0
-IMM,Health Care,Strong Buy,60.0,0.98,0.7
-DSE,Technology,Strong Buy,60.0,6.75,6.75
-EML,Technology,Strong Buy,60.0,1.7,1.7
-MYX,Health Care,Hold,20.0,7.41,7.41
-DXC,Real Estate,Strong Buy,60.0,3.35,3.09
-ARU,Materials,Hold,20.0,0.2,0.11
-AQZ,Industrials,Strong Buy,60.0,3.9,3.7
-JMS,Materials,Strong Buy,60.0,0.23,0.23
-CDP,Real Estate,Strong Buy,60.0,6.25,6.25
-IGL,Communication Services,Strong Buy,60.0,3.4,2.8
-SYL,Services,Strong Buy,60.0,2.57,2.3
-KGN,Consumer Cyclical,Hold,20.0,5.51,4.5
-SMI,Materials,Strong Buy,60.0,1.56,0.8
-BBT,Consumer Cyclical,Strong Buy,60.0,0.47,0.46
-CAY,Materials,Strong Buy,60.0,0.35,0.35
-PMT,Materials,Strong Buy,60.0,1.5,0.35
-TTT,Materials,Strong Buy,60.0,0.3,0.3
-DUR,Industrials,Strong Buy,60.0,1.9,1.6
-MMI,Materials,Strong Buy,60.0,0.17,0.13
-SPZ,Technology,Strong Buy,60.0,1.55,1.25
-AZY,Materials,Strong Buy,60.0,1.04,0.66
-PPS,Financial,Strong Buy,60.0,1.01,0.67
-DXB,Health Care,Strong Buy,60.0,1.58,1.58
-EOS,Industrials,Strong Buy,60.0,2.15,1.8
-MEK,Materials,Strong Buy,60.0,0.25,0.25
-APX,Technology,Strong Buy,60.0,2.35,2.35
-KSL,Financial,Strong Buy,60.0,1.44,1.44
-SVR,Utilities,Strong Buy,60.0,1.8,1.75
-SBM,Materials,Hold,20.0,0.86,0.3
-SGR,Consumer Cyclical,Strong Sell,60.0,0.09,0.09
-IPG,Industrials,Strong Buy,60.0,4.8,4.5
-SYR,Materials,Hold,20.0,0.4,0.3
-ATA,Technology,Strong Buy,60.0,1.07,1.07
-STK,Materials,Strong Buy,60.0,0.19,0.19
-PTM,Financial,Strong Sell,60.0,0.57,0.49
-WIA,Materials,Strong Buy,60.0,0.3,0.3
-ACF,Industrials,Strong Buy,60.0,1.63,1.31
-COG,Financial,Strong Buy,60.0,1.72,1.35
-REP,Financial,Strong Buy,60.0,0.75,0.75
-INR,Materials,Strong Buy,60.0,0.4,0.25
-CVW,Financial,Strong Buy,60.0,0.67,0.67
-MVF,Health Care,Strong Buy,60.0,1.3,1.0
-FND,Services,Strong Buy,60.0,11.15,8.43
-29M,Materials,Hold,20.0,0.32,0.12
-RDY,Technology,Strong Buy,60.0,3.45,3.45
-BTR,Materials,Strong Buy,60.0,1.5,1.14
-FWD,Industrials,Strong Buy,60.0,3.04,2.6
-LGI,Utilities,Strong Buy,60.0,3.6,3.5
-TRS,Consumer Cyclical,Hold,20.0,6.73,3.83
-MEI,Materials,Strong Buy,60.0,0.36,0.17
-AAR,Materials,Strong Buy,60.0,0.49,0.36
-HLO,Consumer Cyclical,Strong Buy,60.0,2.72,1.94
-ANG,Industrials,Strong Buy,60.0,0.86,0.58
-BBN,Consumer Cyclical,Hold,20.0,2.41,1.8
-LAU,Industrials,Strong Buy,60.0,1.09,0.85
-FEX,Energy,Strong Buy,60.0,0.41,0.41
-HUM,Consumer Cyclical,Strong Buy,60.0,0.9,0.81
-PLL,Materials,Strong Buy,60.0,0.25,0.25
-VYS,Industrials,Strong Buy,60.0,,
-CRN,Materials,Hold,29.17,0.3,0.18
-ONE,Health Care,Strong Buy,60.0,0.45,0.45
-IMB,Industrials,Strong Buy,60.0,1.0,1.0
-WC8,Materials,Strong Buy,60.0,0.5,0.3
-EEG,Energy,Strong Buy,60.0,0.75,0.75
-A1M,Materials,Strong Buy,60.0,1.1,0.62
-POL,Materials,Strong Buy,60.0,1.35,1.35
-CTM,Materials,Strong Buy,60.0,0.8,0.64
-CXO,Materials,Hold,20.0,0.14,0.08
-MTO,Consumer Cyclical,Hold,20.0,2.01,2.01
-CAA,Materials,Strong Buy,60.0,,
-SYA,Materials,Strong Buy,60.0,0.05,0.05
-3PL,Consumer Defensive,Hold,20.0,0.9,0.9
-TLG,Materials,Strong Buy,60.0,0.5,0.5
-3DA,Industrials,Strong Buy,60.0,0.6,0.6
-CVN,Energy,Hold,20.0,0.16,0.14
-OFX,Financial,Hold,20.0,1.0,0.94
-SVL,Materials,Strong Buy,60.0,0.18,0.18
-NDO,Consumer Cyclical,Strong Buy,60.0,1.5,1.5
-NWC,Materials,Strong Buy,60.0,0.07,0.07
-COI,Utilities,Strong Buy,60.0,0.24,0.23
-BRL,Materials,Strong Buy,60.0,1.1,1.1
-AIS,Materials,Hold,20.0,0.35,0.16
-SXL,Communication Services,Strong Buy,60.0,1.1,1.1
-4DX,Health Care,Strong Buy,60.0,0.76,0.76
-A1N,Communication Services,Strong Buy,60.0,0.95,0.58
-ARX,Health Care,Strong Buy,60.0,0.93,0.75
-EIQ,Technology,Strong Buy,60.0,0.4,0.4
-CTT,Consumer Cyclical,Hold,20.0,0.5,0.47
-PLT,Financial,Strong Buy,60.0,1.32,1.32
-LIN,Energy,Strong Buy,60.0,0.51,0.51
-ASL,Materials,Strong Buy,60.0,3.05,3.05
-CLX,Industrials,Strong Buy,60.0,2.63,2.63
-DUG,Technology,Strong Buy,60.0,3.0,1.96
-STN,Materials,Strong Buy,60.0,0.98,0.98
-STP,Consumer Cyclical,Hold,20.0,1.3,1.3
-MM8,Materials,Strong Buy,60.0,0.65,0.41
-VVA,Consumer Cyclical,Strong Buy,60.0,1.75,1.75
-NOL,Financial,Strong Buy,60.0,2.85,2.85
-ART,Communication Services,Strong Buy,60.0,0.55,0.55
-DLI,Materials,Hold,20.0,0.35,0.17
-CUP,Industrials,Strong Buy,60.0,1.0,1.0
-SLH,Industrials,Hold,20.0,2.14,1.7
-AEE,Energy,Strong Buy,60.0,0.36,0.36
-EVO,Consumer Cyclical,Strong Buy,60.0,1.09,1.09
-TRJ,Health Care,Strong Buy,60.0,1.55,1.5
-SHJ,Consumer Cyclical,Strong Buy,60.0,0.81,0.81
-DGL,Industrials,Hold,20.0,0.53,0.48
-AIM,Communication Services,Strong Buy,60.0,1.35,1.35
-AUE,Materials,Strong Buy,60.0,0.95,0.95
-BUB,Consumer Defensive,Hold,20.0,0.2,0.14
-ALC,Health Care,Strong Buy,60.0,0.13,0.1
-HPG,Technology,Strong Buy,60.0,1.5,1.5
-SNT,Health Care,Strong Buy,60.0,0.25,0.25
-BET,Consumer Cyclical,Strong Buy,60.0,0.2,0.2
-BRI,Materials,Strong Buy,60.0,1.78,1.7
-AHC,Health Care,Strong Buy,60.0,0.45,0.45
-GSS,Health Care,Strong Buy,60.0,0.75,0.75
-MME,Financial,Strong Buy,60.0,0.21,0.21
-HGO,Materials,Strong Buy,60.0,0.08,0.07
-USL,Materials,Strong Buy,60.0,,
-TTM,Materials,Strong Buy,60.0,1.18,1.18
-PEN,Energy,Hold,20.0,2.18,1.0
-HRZ,Materials,Strong Buy,60.0,0.12,0.12
-QPM,Materials,Strong Buy,60.0,0.13,0.1
-CYG,Industrials,Strong Buy,60.0,1.24,1.24
-CVV,Materials,Strong Buy,60.0,0.6,0.6
-CCR,Technology,Strong Buy,60.0,0.49,0.44
-EGL,Utilities,Strong Buy,60.0,0.36,0.36
-STM,Materials,Strong Buy,60.0,0.04,0.04
-PSC,Materials,Strong Buy,60.0,0.45,0.45
-EQR,Materials,Strong Buy,60.0,0.1,0.1
-M7T,Health Care,Strong Buy,60.0,1.37,0.78
-IMA,Materials,Strong Buy,60.0,0.14,0.14
-GLN,Materials,Strong Buy,60.0,0.18,0.18
-KYP,Technology,Strong Buy,60.0,0.29,0.27
-AVL,Materials,Strong Buy,60.0,0.06,0.06
-AL3,Industrials,Strong Buy,60.0,0.4,0.3
-EXP,Consumer Cyclical,Strong Buy,60.0,0.32,0.2
-AV1,Technology,Strong Buy,60.0,0.14,0.14
-BMT,Health Care,Strong Buy,60.0,0.5,0.5
-CNB,Materials,Strong Buy,60.0,1.27,0.7
-AOF,Real Estate,Hold,20.0,0.49,0.49
-PNC,Financial,Strong Buy,60.0,0.8,0.8
-LRK,Consumer Defensive,Strong Buy,60.0,1.5,1.5
-AHX,Consumer Cyclical,Strong Buy,60.0,0.63,0.63
-NUZ,Health Care,Strong Buy,60.0,0.46,0.42
-MVP,Health Care,Strong Buy,60.0,0.8,0.8
-PPE,Industrials,Strong Buy,60.0,1.06,1.05
-CLV,Industrials,Strong Buy,60.0,,
-MAP,Health Care,Strong Buy,60.0,0.32,0.26
-ASN,Materials,Hold,20.0,,
-SFX,Materials,Hold,20.0,0.19,0.19
-B4P,Technology,Strong Buy,60.0,2.15,2.15
-SDV,Materials,Strong Buy,60.0,0.6,0.6
-CY5,Materials,Strong Buy,60.0,0.3,0.25
-HAS,Materials,Hold,20.0,0.35,0.14
-HMY,Financial,Strong Buy,60.0,1.02,1.02
-EGG,Communication Services,Strong Buy,60.0,1.52,1.52
-BOL,Industrials,Strong Buy,60.0,,
-EPY,Financial,Strong Buy,60.0,0.3,0.3
-PIQ,Health Care,Strong Sell,60.0,0.43,0.43
-PLY,Communication Services,Strong Buy,60.0,0.5,0.5
-MSV,Materials,Strong Buy,60.0,0.45,0.45
-IPD,Health Care,Strong Buy,60.0,0.16,0.09
-VHM,Materials,Strong Buy,60.0,1.05,1.05
-SPG,Consumer Defensive,Strong Buy,60.0,0.9,0.9
-MDR,Health Care,Hold,20.0,0.19,0.1
-RAD,Health Care,Strong Buy,60.0,0.05,0.05
-DSK,Consumer Cyclical,Strong Buy,60.0,1.4,1.4
-TSO,Materials,Strong Buy,60.0,0.11,0.11
-BKT,Materials,Strong Buy,60.0,0.11,0.11
-GL1,Materials,Moderate Sell,40.0,0.2,0.14
-BCB,Materials,Strong Buy,60.0,,
-ATG,Consumer Cyclical,Hold,20.0,0.4,0.4
-WZR,Financial,Strong Buy,60.0,0.06,0.06
-NOU,Consumer Defensive,Strong Buy,60.0,0.24,0.24
-MX1,Health Care,Strong Buy,60.0,0.17,0.17
-BDM,Materials,Hold,20.0,0.05,0.05
-BML,Materials,Strong Buy,60.0,0.4,0.4
-PEX,Materials,Strong Buy,60.0,0.18,0.18
-WR1,Materials,Strong Buy,60.0,1.2,1.2
-SKY,Materials,Strong Buy,60.0,0.8,0.8
-LGP,Health Care,Strong Buy,60.0,0.18,0.18
-CCX,Consumer Cyclical,Strong Buy,60.0,0.25,0.25
-CVB,Health Care,Strong Buy,60.0,0.18,0.18
-STG,Industrials,Hold,20.0,0.52,0.52
-ELT,Materials,Strong Buy,60.0,0.3,0.3
-NUC,Consumer Defensive,Hold,20.0,0.14,0.14
-NXD,Technology,Strong Buy,60.0,0.35,0.35
-CHL,Communication Services,Strong Buy,60.0,1.05,1.05
-VMM,Materials,Strong Buy,60.0,0.5,0.5
-AW1,Materials,Strong Buy,60.0,0.2,0.2
-HCL,Technology,Strong Buy,60.0,0.35,0.35
-RDG,Industrials,Hold,20.0,0.01,0.01
-RMY,Communication Services,Strong Buy,60.0,0.1,0.1
-IME,Health Care,Strong Buy,60.0,0.75,0.75
-TRE,General,Strong Buy,60.0,1.5,1.5
-DXN,Technology,Strong Buy,60.0,0.08,0.08
+Stock Symbol,Sector,Recommendation,Confidence Level (%),Current Price (AU$),Predicted High Price in a Year,Predicted Low Price in a Year
+CBA,Financial,Strong Sell,62.5,174.44,143.0,97.49
+BHP,Materials,Hold,52.08,38.15,48.69,20.01
+RIO,Materials,Hold,31.25,113.39,140.79,115.0
+CSL,Health Care,Strong Buy,60.0,248.0,320.0,304.59
+NAB,Financial,Hold,20.0,37.5,39.14,28.0
+WBC,Financial,Moderate Sell,40.0,31.71,36.0,27.01
+WES,Consumer Cyclical,Hold,27.08,83.0,87.31,60.0
+NEM,Materials,Strong Buy,60.0,81.57,95.5,73.0
+ANZ,Financial,Hold,37.5,28.92,31.39,24.5
+MQG,Financial,Hold,20.0,213.61,235.01,199.01
+GMG,Real Estate,Strong Buy,60.0,32.51,40.0,30.8
+RMD,Health Care,Strong Buy,62.5,38.24,49.3,40.54
+TLS,Communication Services,Moderate Buy,40.0,4.78,5.27,4.0
+FMG,Materials,Hold,35.42,15.68,20.01,15.0
+TCL,Industrials,Hold,33.33,14.26,14.59,12.65
+WDS,Energy,Hold,35.42,22.73,33.0,21.5
+ALL,Consumer Cyclical,Strong Buy,68.75,62.33,79.0,64.0
+WOW,Consumer Defensive,Hold,31.25,31.63,36.47,30.46
+SIG,Health Care,Hold,20.0,3.17,3.44,2.54
+WTC,Technology,Strong Buy,60.0,108.77,144.99,100.0
+QBE,Financial,Strong Buy,60.0,23.46,25.5,21.0
+REA,Communication Services,Moderate Buy,40.0,246.31,294.0,210.01
+AMC,Consumer Cyclical,Strong Buy,60.0,14.17,20.31,14.0
+BXB,Industrials,Hold,20.83,22.97,24.91,17.94
+PME,Health Care,Hold,20.0,278.18,280.0,219.99
+NST,Materials,Strong Buy,60.0,20.33,26.81,18.3
+COL,Consumer Defensive,Moderate Buy,40.0,21.54,23.51,19.0
+XRO,Technology,Strong Buy,60.0,185.75,219.99,180.0
+NWS,Communication Services,Strong Buy,60.0,51.85,68.0,54.0
+CPU,Financial,Hold,20.0,40.58,42.0,33.99
+SUN,Financial,Strong Buy,60.0,20.83,22.74,19.2
+STO,Energy,Strong Buy,60.0,6.65,8.49,6.39
+URW,General,Hold,20.0,7.3,6.91,6.91
+SGH,Industrials,Strong Buy,60.0,50.64,60.01,54.0
+IAG,Financial,Moderate Buy,40.0,8.69,10.0,7.95
+SCG,Real Estate,Strong Buy,60.0,3.68,4.34,3.62
+ORG,Energy,Hold,20.0,10.6,11.7,9.26
+COH,Health Care,Moderate Buy,40.0,270.0,300.01,266.99
+EVN,Materials,Hold,35.42,8.86,8.49,5.6
+QAN,Industrials,Strong Buy,60.0,10.6,11.96,11.4
+JHX,Materials,Moderate Buy,40.0,34.69,54.0,39.5
+ASX,Financial,Moderate Sell,40.0,71.76,67.5,56.15
+SOL,Financial,Hold,20.0,36.92,37.49,37.49
+S32,Materials,Moderate Buy,50.0,3.04,7.13,2.62
+CAR,Communication Services,Strong Buy,60.0,35.9,42.01,33.0
+TNE,Technology,Hold,35.42,40.77,43.49,33.03
+SGP,Real Estate,Strong Buy,60.0,5.54,6.01,5.37
+MPL,Financial,Hold,27.08,4.82,5.1,4.45
+SHL,Health Care,Hold,20.0,26.35,32.2,26.5
+TLC,Consumer Cyclical,Strong Buy,60.0,5.37,5.6,5.15
+JBH,Consumer Cyclical,Hold,20.0,108.4,114.0,73.6
+VCX,Real Estate,Hold,20.0,2.43,2.4,2.27
+APA,Utilities,Strong Buy,60.0,8.23,8.85,8.14
+BSL,Materials,Strong Buy,60.0,22.98,29.0,24.0
+REH,Industrials,Strong Sell,60.0,15.57,17.0,16.4
+TPG,Communication Services,Hold,20.0,5.15,5.8,4.2
+ORI,Materials,Strong Buy,75.0,18.82,22.99,18.9
+MGR,Real Estate,Hold,20.0,2.3,2.35,2.29
+GPT,Real Estate,Strong Buy,60.0,4.72,5.66,4.99
+TLX,Health Care,Strong Buy,60.0,25.47,36.0,33.99
+CHC,Real Estate,Moderate Buy,40.0,18.2,20.01,15.49
+SEK,Communication Services,Strong Buy,60.0,24.23,30.1,24.6
+NXT,Technology,Strong Buy,60.0,13.14,20.15,16.51
+RHC,Health Care,Hold,27.08,36.17,40.99,37.4
+ALQ,Industrials,Moderate Buy,40.0,16.22,20.5,14.59
+NWL,Financial,Hold,29.17,31.77,31.6,15.4
+ALX,Industrials,Hold,20.0,5.22,6.08,5.09
+QUB,Industrials,Moderate Buy,40.0,4.25,4.79,4.2
+DXS,Real Estate,Hold,20.0,6.98,9.02,7.41
+360,Technology,Strong Buy,60.0,33.37,32.0,27.1
+LYC,Materials,Hold,20.0,7.78,10.41,5.31
+EDV,Real Estate,Hold,33.33,4.02,5.2,4.1
+AGL,Utilities,Hold,20.0,10.22,11.99,11.4
+WOR,Energy,Strong Buy,60.0,13.1,22.0,15.85
+BEN,Financial,Hold,27.08,11.95,11.61,8.93
+HVN,Consumer Cyclical,Moderate Sell,40.0,5.31,6.01,4.0
+HUB,Financial,Hold,25.0,82.91,90.73,43.35
+TWE,Consumer Defensive,Strong Buy,60.0,8.11,14.0,8.9
+SDF,Financial,Strong Buy,60.0,5.8,6.8,6.5
+GQG,Financial,Strong Buy,60.0,2.09,3.2,2.63
+CWY,Industrials,Strong Buy,60.0,2.74,3.41,2.99
+ALD,Energy,Strong Buy,60.0,25.36,35.0,23.51
+NXG,General,Strong Buy,60.0,10.08,14.1,12.3
+SFR,Materials,Hold,33.33,11.56,13.15,6.75
+CGF,Financial,Strong Buy,60.0,7.6,9.15,6.46
+AZJ,Industrials,Hold,22.92,2.95,3.8,3.1
+PRU,Materials,Strong Buy,60.0,3.82,5.01,3.5
+BOQ,Financial,Moderate Sell,40.0,7.77,7.05,5.65
+GMD,Materials,Hold,29.17,4.52,5.15,3.75
+DNL,Materials,Hold,33.33,2.69,3.59,2.5
+WHC,Energy,Moderate Buy,40.0,5.66,7.7,4.6
+ANN,Health Care,Hold,20.0,31.46,36.2,31.05
+APE,Consumer Cyclical,Hold,20.0,17.68,20.35,14.8
+MIN,Materials,Moderate Buy,40.0,22.72,40.0,15.49
+PLS,Materials,Strong Buy,60.0,1.31,2.89,1.49
+PNI,Financial,Strong Buy,60.0,20.07,25.1,19.5
+BKW,Materials,Strong Buy,60.0,27.35,31.6,25.0
+BRG,Consumer Cyclical,Hold,29.17,29.05,41.1,29.99
+AUB,Financial,Strong Buy,60.0,34.9,38.7,35.58
+CMM,Materials,Strong Buy,60.0,9.39,10.6,8.4
+LLC,Real Estate,Hold,20.0,5.78,7.79,6.21
+VNT,Industrials,Hold,20.0,4.71,5.0,4.45
+RRL,Materials,Hold,25.0,4.94,5.6,2.71
+GOR,Materials,Hold,33.33,3.33,3.55,2.71
+RWC,Industrials,Strong Buy,60.0,4.4,5.55,4.5
+NHF,Financial,Hold,20.83,6.68,8.0,5.55
+PMV,Consumer Cyclical,Hold,29.17,20.5,29.5,21.6
+RMS,Materials,Strong Buy,60.0,2.83,3.55,2.6
+NHC,Energy,Hold,20.0,3.8,4.6,2.89
+CDA,Technology,Strong Buy,60.0,17.83,18.5,17.0
+LOV,Consumer Cyclical,Hold,20.0,29.28,35.28,23.05
+NSR,Real Estate,Strong Buy,60.0,2.3,2.7,2.37
+AMP,Financial,Moderate Buy,40.0,1.26,1.62,1.2
+SUL,Consumer Cyclical,Moderate Buy,40.0,14.22,16.5,12.2
+GYG,Consumer Cyclical,Moderate Buy,40.0,30.65,42.88,29.0
+IGO,Materials,Moderate Buy,40.0,4.1,6.01,3.2
+BPT,Energy,Hold,33.33,1.36,1.74,1.15
+WAF,Materials,Strong Buy,60.0,2.68,4.54,2.8
+VEA,Energy,Hold,22.92,1.88,3.43,1.52
+EMR,Materials,Moderate Sell,40.0,4.59,5.94,3.59
+FLT,Consumer Cyclical,Strong Buy,60.0,13.36,19.31,12.8
+VAU,Materials,Strong Buy,60.0,0.43,0.76,0.55
+CLW,Real Estate,Hold,20.0,4.13,4.4,4.18
+SGM,Materials,Hold,20.0,15.18,15.49,11.99
+NIC,Materials,Moderate Buy,40.0,0.69,1.6,0.55
+WGX,Materials,Strong Buy,60.0,2.98,4.4,3.5
+SPR,Materials,Strong Buy,60.0,2.2,2.4,2.4
+RGN,Real Estate,Strong Buy,60.0,2.4,2.64,2.3
+DHG,Communication Services,Hold,20.0,4.36,4.43,3.25
+TUA,Communication Services,Strong Buy,60.0,5.71,7.1,7.0
+HDN,Real Estate,Strong Buy,60.0,1.26,1.35,1.33
+EVT,Communication Services,Strong Buy,60.0,16.2,19.0,16.12
+TPW,Consumer Cyclical,Strong Buy,60.0,21.9,21.1,17.6
+PDN,Energy,Strong Buy,60.0,6.14,12.79,5.69
+ARB,Consumer Cyclical,Hold,20.0,31.13,39.55,31.01
+NEC,Communication Services,Strong Buy,60.0,1.61,1.8,1.75
+BWP,Real Estate,Strong Buy,60.0,3.55,4.05,4.05
+ZIP,Financial,Strong Buy,60.0,2.01,3.5,2.5
+ORA,Consumer Cyclical,Hold,29.17,1.94,2.4,2.02
+REG,Health Care,Strong Buy,60.0,8.02,10.25,7.75
+INA,Real Estate,Hold,20.0,5.72,6.5,6.3
+CQR,Real Estate,Strong Buy,60.0,3.97,4.03,3.53
+IFL,Financial,Hold,20.0,3.42,4.99,4.0
+DMP,Consumer Cyclical,Hold,20.0,24.08,39.0,31.81
+PXA,Real Estate,Strong Buy,60.0,12.76,17.4,13.2
+ASB,Industrials,Hold,20.0,5.4,4.74,3.76
+MP1,Technology,Strong Buy,60.0,13.95,15.49,9.01
+CIA,Materials,Strong Buy,75.0,4.27,9.01,5.71
+IEL,Consumer Cyclical,Moderate Buy,40.0,7.85,18.09,9.57
+GDG,Real Estate,Strong Buy,60.0,5.5,6.04,5.3
+MSB,Health Care,Hold,20.0,1.67,3.41,2.4
+PPT,Financial,Hold,20.0,17.96,22.81,15.44
+HMC,Real Estate,Strong Buy,60.0,5.06,12.4,5.2
+OBM,Materials,Hold,20.0,1.06,1.25,1.03
+DBI,Industrials,Strong Buy,60.0,4.04,4.35,4.35
+DRR,Materials,Moderate Buy,40.0,3.78,4.9,3.6
+CTD,Consumer Cyclical,Strong Buy,60.0,13.67,16.06,11.79
+ASK,Real Estate,Strong Buy,60.0,1.5,1.7,1.4
+CIP,Real Estate,Strong Buy,60.0,3.08,3.82,2.85
+GOZ,Real Estate,Strong Buy,60.0,2.47,2.6,2.6
+WEB,Consumer Cyclical,Strong Buy,60.0,5.17,7.97,0.79
+DGT,Real Estate,Strong Buy,60.0,3.35,5.8,5.2
+OCL,Technology,Hold,20.0,18.98,16.75,16.0
+SMR,Materials,Strong Buy,60.0,1.99,5.37,2.4
+SNL,Consumer Cyclical,Strong Buy,60.0,41.0,39.1,36.4
+BAP,Industrials,Hold,20.83,5.21,6.01,5.33
+NEU,Health Care,Strong Buy,60.0,14.13,31.46,20.01
+ADT,Materials,Hold,20.0,5.05,4.74,4.54
+WPR,Real Estate,Hold,20.0,2.62,2.7,2.5
+MND,Industrials,Hold,20.0,17.35,19.5,15.76
+GNC,Industrials,Strong Buy,60.0,7.5,9.75,7.45
+BGA,Consumer Defensive,Strong Buy,60.0,5.42,7.05,7.05
+BOE,Materials,Strong Buy,62.5,3.98,6.01,2.71
+JDO,Financial,Strong Buy,60.0,1.48,2.4,1.55
+ILU,Materials,Strong Buy,60.0,3.79,6.5,4.4
+NCK,Real Estate,Strong Buy,60.0,19.07,21.0,19.9
+IRE,Technology,Strong Buy,60.0,8.61,10.79,10.79
+CYL,Materials,Strong Buy,60.0,6.25,7.15,6.43
+MAQ,Communication Services,Hold,20.0,59.5,101.89,65.8
+ARF,Real Estate,Hold,20.0,3.76,4.1,3.98
+MGH,Industrials,Strong Buy,60.0,4.07,4.95,4.75
+DDR,Technology,Strong Buy,60.0,8.16,11.09,9.12
+LTR,Materials,Hold,31.25,0.62,0.9,0.3
+PRN,Materials,Moderate Buy,40.0,1.56,1.7,1.4
+MFG,Financial,Hold,20.0,8.44,9.89,6.31
+HLI,Financial,Strong Sell,60.0,5.27,3.92,3.25
+IMD,Industrials,Hold,20.83,2.8,3.2,2.64
+ING,Consumer Defensive,Hold,20.0,3.79,3.67,3.53
+BGL,Materials,Strong Buy,60.0,0.95,1.9,0.77
+CAT,Technology,Strong Buy,60.0,5.26,6.01,4.6
+SLC,Communication Services,Strong Buy,60.0,2.7,2.88,2.12
+CNI,Real Estate,Hold,20.0,1.66,1.9,1.74
+DYL,Energy,Strong Buy,60.0,1.34,1.7,1.0
+PNR,Materials,Moderate Buy,40.0,3.42,4.45,2.3
+NAN,Health Care,Moderate Buy,40.0,4.4,6.01,4.0
+RSG,Materials,Strong Buy,60.0,0.61,1.4,0.54
+IPH,Industrials,Strong Buy,60.0,4.94,8.0,6.75
+SDR,Consumer Cyclical,Strong Buy,60.0,4.62,7.11,4.45
+NWH,Industrials,Strong Buy,60.0,2.78,4.03,3.02
+MYR,Consumer Cyclical,Strong Buy,60.0,0.71,1.06,0.87
+MAF,Financial,Strong Buy,60.0,7.1,8.9,8.11
+KAR,Energy,Strong Buy,60.0,1.67,2.6,1.66
+MAD,Industrials,Strong Buy,60.0,6.03,6.7,6.7
+ABB,Communication Services,Strong Buy,60.0,4.08,5.16,3.9
+ELD,Consumer Defensive,Strong Buy,60.0,6.27,9.1,7.21
+LFS,Financial,Hold,20.0,1.12,1.3,1.3
+DTL,Technology,Strong Buy,60.0,7.48,8.1,8.1
+SSM,Industrials,Strong Buy,60.0,1.86,2.01,1.96
+IPX,Materials,Strong Buy,60.0,3.58,6.95,5.9
+DRO,Technology,Strong Buy,60.0,1.29,1.49,1.2
+AX1,Consumer Cyclical,Strong Buy,60.0,1.86,2.61,2.0
+MMS,Industrials,Hold,20.0,15.74,20.0,16.3
+AOV,Consumer Cyclical,Strong Buy,60.0,7.97,14.41,9.4
+ABG,Real Estate,Strong Buy,60.0,1.22,1.35,1.2
+HSN,Technology,Strong Buy,60.0,5.14,7.3,5.74
+DVP,Technology,Strong Buy,60.0,3.78,5.06,4.0
+SIQ,Industrials,Hold,20.0,7.29,9.01,7.95
+A4N,Materials,Strong Buy,60.0,0.91,2.0,2.0
+GEM,Consumer Defensive,Strong Buy,60.0,1.25,1.53,1.49
+RIC,Consumer Defensive,Strong Buy,60.0,2.65,2.8,2.8
+CMW,Real Estate,Strong Buy,60.0,0.36,0.45,0.45
+CKF,Consumer Cyclical,Strong Buy,60.0,7.87,10.13,8.0
+CCP,Financial,Strong Buy,60.0,13.75,20.77,16.41
+PDI,Materials,Strong Buy,60.0,0.38,0.56,0.56
+OML,Communication Services,Strong Buy,60.0,1.7,2.0,1.55
+NUF,Materials,Hold,20.83,2.34,4.5,1.96
+IDX,Health Care,Strong Buy,60.0,2.45,3.45,2.7
+DXI,Real Estate,Hold,20.0,2.84,2.95,2.65
+PNV,Health Care,Strong Buy,60.0,1.3,2.01,1.62
+SRG,Industrials,Strong Buy,60.0,1.48,1.8,1.8
+VUL,Materials,Strong Buy,60.0,4.0,10.0,6.1
+LIC,Real Estate,Strong Buy,60.0,7.01,11.5,8.99
+KLS,Industrials,Strong Buy,60.0,3.12,5.6,3.8
+VSL,Materials,Hold,20.0,6.41,7.25,7.25
+CBO,Real Estate,Strong Buy,60.0,2.01,2.25,1.95
+EQT,Financial,Strong Buy,60.0,31.42,35.0,35.0
+QAL,Real Estate,Strong Buy,60.0,2.8,3.95,3.95
+BCI,Materials,Strong Buy,60.0,0.29,0.48,0.48
+NXL,Technology,Hold,20.0,2.46,2.6,2.5
+AAC,Consumer Defensive,Strong Buy,60.0,1.38,1.9,1.9
+NGI,Financial,Strong Buy,60.0,1.66,2.64,2.4
+SLX,Technology,Strong Buy,60.0,3.37,6.5,6.46
+FCL,Technology,Strong Buy,60.0,2.35,2.47,2.0
+BLX,Consumer Cyclical,Strong Buy,60.0,3.47,3.96,3.96
+APZ,Real Estate,Strong Buy,60.0,3.41,3.87,3.87
+COF,Real Estate,Hold,20.0,1.22,1.14,1.05
+OPT,Health Care,Hold,20.0,0.6,1.0,0.05
+RPL,Financial,Strong Buy,60.0,2.14,3.6,3.3
+JLG,Industrials,Strong Buy,60.0,2.52,3.2,3.2
+SGLLV,Utilities,Strong Buy,60.0,10.9,11.85,11.85
+PYC,Health Care,Strong Buy,60.0,1.2,4.0,2.3
+CU6,Health Care,Strong Buy,60.0,2.16,8.25,4.7
+RUL,Technology,Strong Buy,60.0,3.1,3.48,3.48
+RFF,Real Estate,Hold,20.0,1.75,2.44,1.84
+MYS,Financial,Strong Buy,60.0,4.0,4.53,4.53
+PGC,Health Care,Strong Buy,60.0,0.4,0.53,0.53
+TEA,General,Strong Buy,60.0,2.81,3.8,3.0
+HLS,Health Care,Hold,22.92,0.88,1.64,0.94
+SHV,Consumer Defensive,Strong Buy,60.0,4.51,6.05,4.73
+FPR,Financial,Strong Buy,60.0,2.96,3.9,3.5
+AD8,Technology,Moderate Sell,40.0,7.9,9.51,6.3
+JIN,Consumer Cyclical,Hold,20.0,10.11,11.18,11.18
+FFM,Materials,Strong Buy,60.0,1.07,1.94,1.49
+PFP,Consumer Cyclical,Strong Buy,60.0,4.44,6.3,5.5
+MAH,Materials,Strong Buy,60.0,0.29,0.4,0.39
+GNP,Industrials,Strong Buy,60.0,3.36,3.39,3.3
+LLL,Materials,Strong Buy,60.0,0.51,1.9,1.9
+AFG,Financial,Strong Buy,60.0,2.19,1.8,1.8
+UNI,Consumer Cyclical,Strong Buy,60.0,7.51,10.53,10.53
+ACL,Health Care,Hold,20.0,2.92,3.3,3.3
+C79,Technology,Strong Buy,60.0,4.9,6.8,4.4
+BC8,Materials,Strong Buy,60.0,0.8,1.53,1.53
+CUV,Health Care,Strong Buy,60.0,10.92,39.45,39.45
+CWP,Real Estate,Strong Buy,60.0,6.5,7.3,7.15
+QOR,Technology,Strong Buy,60.0,0.41,0.65,0.56
+KCN,Materials,Strong Buy,60.0,2.05,4.0,4.0
+CVL,Industrials,Hold,20.0,1.02,1.2,1.1
+BMN,Energy,Strong Buy,60.0,2.86,5.34,3.73
+AMI,Materials,Strong Buy,60.0,0.3,0.4,0.33
+AEL,Energy,Strong Buy,60.0,0.19,0.33,0.23
+STX,Energy,Hold,20.0,0.17,0.31,0.19
+BRE,General,Strong Buy,60.0,2.0,7.0,4.45
+MLX,Materials,Hold,20.0,0.53,0.5,0.5
+IFM,Technology,Hold,20.0,1.25,1.5,1.5
+GNG,Industrials,Strong Buy,60.0,2.81,,
+AMA,Consumer Cyclical,Strong Buy,60.0,0.1,0.13,0.1
+TYR,Technology,Strong Buy,60.0,0.89,1.65,0.82
+HCW,Real Estate,Hold,20.0,0.82,1.2,0.89
+SXE,Industrials,Strong Buy,60.0,1.74,2.53,2.23
+TCG,Materials,Strong Buy,60.0,0.5,1.31,1.01
+ALK,Materials,Strong Buy,60.0,0.75,1.4,0.7
+MAU,Materials,Strong Buy,60.0,1.67,2.53,2.53
+CHN,Materials,Strong Buy,60.0,1.14,5.79,1.01
+LOT,Materials,Strong Buy,60.0,0.18,0.38,0.22
+SVM,Materials,Strong Buy,60.0,0.67,1.13,1.0
+IMM,Health Care,Strong Buy,60.0,0.28,0.98,0.7
+DSE,Technology,Strong Buy,60.0,5.88,6.75,6.75
+EML,Technology,Strong Buy,60.0,1.08,1.7,1.7
+MYX,Health Care,Hold,20.0,5.06,7.41,7.41
+DXC,Real Estate,Strong Buy,60.0,2.97,3.35,3.09
+ARU,Materials,Hold,20.0,0.17,0.2,0.11
+AQZ,Industrials,Strong Buy,60.0,2.5,3.9,3.7
+JMS,Materials,Strong Buy,60.0,0.2,0.23,0.23
+CDP,Real Estate,Strong Buy,60.0,4.83,6.25,6.25
+IGL,Communication Services,Strong Buy,60.0,2.57,3.4,2.8
+SYL,Services,Strong Buy,60.0,1.69,2.57,2.3
+KGN,Consumer Cyclical,Hold,20.0,3.98,5.51,4.5
+SMI,Materials,Strong Buy,60.0,0.54,1.56,0.8
+BBT,Consumer Cyclical,Strong Buy,60.0,0.38,0.47,0.46
+CAY,Materials,Strong Buy,60.0,0.27,0.35,0.35
+PMT,Materials,Strong Buy,60.0,0.23,1.5,0.35
+TTT,Materials,Strong Buy,60.0,0.28,0.3,0.3
+DUR,Industrials,Strong Buy,60.0,1.49,1.9,1.6
+MMI,Materials,Strong Buy,60.0,0.06,0.17,0.13
+SPZ,Technology,Strong Buy,60.0,0.86,1.55,1.25
+AZY,Materials,Strong Buy,60.0,0.61,1.04,0.66
+PPS,Financial,Strong Buy,60.0,0.72,1.01,0.67
+DXB,Health Care,Strong Buy,60.0,0.57,1.58,1.58
+EOS,Industrials,Strong Buy,60.0,1.76,2.15,1.8
+MEK,Materials,Strong Buy,60.0,0.14,0.25,0.25
+APX,Technology,Strong Buy,60.0,1.28,2.35,2.35
+KSL,Financial,Strong Buy,60.0,1.17,1.44,1.44
+SVR,Utilities,Strong Buy,60.0,1.66,1.8,1.75
+SBM,Materials,Hold,20.0,0.32,0.86,0.3
+SGR,Consumer Cyclical,Strong Sell,60.0,0.11,0.09,0.09
+IPG,Industrials,Strong Buy,60.0,3.14,4.8,4.5
+SYR,Materials,Hold,20.0,0.31,0.4,0.3
+ATA,Technology,Strong Buy,60.0,0.85,1.07,1.07
+STK,Materials,Strong Buy,60.0,0.14,0.19,0.19
+PTM,Financial,Strong Sell,60.0,0.56,0.57,0.49
+WIA,Materials,Strong Buy,60.0,0.23,0.3,0.3
+ACF,Industrials,Strong Buy,60.0,1.01,1.63,1.31
+COG,Financial,Strong Buy,60.0,1.51,1.72,1.35
+REP,Financial,Strong Buy,60.0,0.61,0.75,0.75
+INR,Materials,Strong Buy,60.0,0.12,0.4,0.25
+CVW,Financial,Strong Buy,60.0,0.49,0.67,0.67
+MVF,Health Care,Strong Buy,60.0,0.77,1.3,1.0
+FND,Services,Strong Buy,60.0,5.05,11.15,8.43
+29M,Materials,Hold,20.0,0.2,0.32,0.12
+RDY,Technology,Strong Buy,60.0,2.3,3.45,3.45
+BTR,Materials,Strong Buy,60.0,0.57,1.5,1.14
+FWD,Industrials,Strong Buy,60.0,2.82,3.04,2.6
+LGI,Utilities,Strong Buy,60.0,2.9,3.6,3.5
+TRS,Consumer Cyclical,Hold,20.0,6.62,6.73,3.83
+MEI,Materials,Strong Buy,60.0,0.11,0.36,0.17
+AAR,Materials,Strong Buy,60.0,0.17,0.49,0.36
+HLO,Consumer Cyclical,Strong Buy,60.0,1.46,2.72,1.94
+ANG,Industrials,Strong Buy,60.0,0.38,0.86,0.58
+BBN,Consumer Cyclical,Hold,20.0,1.69,2.41,1.8
+LAU,Industrials,Strong Buy,60.0,0.71,1.09,0.85
+FEX,Energy,Strong Buy,60.0,0.28,0.41,0.41
+HUM,Consumer Cyclical,Strong Buy,60.0,0.45,0.9,0.81
+PLL,Materials,Strong Buy,60.0,0.1,0.25,0.25
+VYS,Industrials,Strong Buy,60.0,0.41,,
+CRN,Materials,Hold,29.17,0.12,0.3,0.18
+ONE,Health Care,Strong Buy,60.0,0.28,0.45,0.45
+IMB,Industrials,Strong Buy,60.0,0.58,1.0,1.0
+WC8,Materials,Strong Buy,60.0,0.15,0.5,0.3
+EEG,Energy,Strong Buy,60.0,0.17,0.75,0.75
+A1M,Materials,Strong Buy,60.0,0.34,1.1,0.62
+POL,Materials,Strong Buy,60.0,0.82,1.35,1.35
+CTM,Materials,Strong Buy,60.0,0.39,0.8,0.64
+CXO,Materials,Hold,20.0,0.09,0.14,0.08
+MTO,Consumer Cyclical,Hold,20.0,2.53,2.01,2.01
+CAA,Materials,Strong Buy,60.0,11.17,,
+SYA,Materials,Strong Buy,60.0,0.02,0.05,0.05
+3PL,Consumer Defensive,Hold,20.0,0.66,0.9,0.9
+TLG,Materials,Strong Buy,60.0,0.4,0.5,0.5
+3DA,Industrials,Strong Buy,60.0,0.26,0.6,0.6
+CVN,Energy,Hold,20.0,0.1,0.16,0.14
+OFX,Financial,Hold,20.0,0.77,1.0,0.94
+SVL,Materials,Strong Buy,60.0,0.1,0.18,0.18
+NDO,Consumer Cyclical,Strong Buy,60.0,0.74,1.5,1.5
+NWC,Materials,Strong Buy,60.0,0.05,0.07,0.07
+COI,Utilities,Strong Buy,60.0,0.14,0.24,0.23
+BRL,Materials,Strong Buy,60.0,0.69,1.1,1.1
+AIS,Materials,Hold,20.0,0.17,0.35,0.16
+SXL,Communication Services,Strong Buy,60.0,0.68,1.1,1.1
+4DX,Health Care,Strong Buy,60.0,0.35,0.76,0.76
+A1N,Communication Services,Strong Buy,60.0,0.52,0.95,0.58
+ARX,Health Care,Strong Buy,60.0,0.53,0.93,0.75
+EIQ,Technology,Strong Buy,60.0,0.25,0.4,0.4
+CTT,Consumer Cyclical,Hold,20.0,0.41,0.5,0.47
+PLT,Financial,Strong Buy,60.0,0.87,1.32,1.32
+LIN,Energy,Strong Buy,60.0,0.13,0.51,0.51
+ASL,Materials,Strong Buy,60.0,0.94,3.05,3.05
+CLX,Industrials,Strong Buy,60.0,1.85,2.63,2.63
+DUG,Technology,Strong Buy,60.0,1.12,3.0,1.96
+STN,Materials,Strong Buy,60.0,0.31,0.98,0.98
+STP,Consumer Cyclical,Hold,20.0,0.76,1.3,1.3
+MM8,Materials,Strong Buy,60.0,0.26,0.65,0.41
+VVA,Consumer Cyclical,Strong Buy,60.0,1.34,1.75,1.75
+NOL,Financial,Strong Buy,60.0,1.47,2.85,2.85
+ART,Communication Services,Strong Buy,60.0,0.3,0.55,0.55
+DLI,Materials,Hold,20.0,0.18,0.35,0.17
+CUP,Industrials,Strong Buy,60.0,0.81,1.0,1.0
+SLH,Industrials,Hold,20.0,1.61,2.14,1.7
+AEE,Energy,Strong Buy,60.0,0.13,0.36,0.36
+EVO,Consumer Cyclical,Strong Buy,60.0,0.69,1.09,1.09
+TRJ,Health Care,Strong Buy,60.0,0.8,1.55,1.5
+SHJ,Consumer Cyclical,Strong Buy,60.0,0.72,0.81,0.81
+DGL,Industrials,Hold,20.0,0.42,0.53,0.48
+AIM,Communication Services,Strong Buy,60.0,0.57,1.35,1.35
+AUE,Materials,Strong Buy,60.0,0.49,0.95,0.95
+BUB,Consumer Defensive,Hold,20.0,0.13,0.2,0.14
+ALC,Health Care,Strong Buy,60.0,0.09,0.13,0.1
+HPG,Technology,Strong Buy,60.0,0.84,1.5,1.5
+SNT,Health Care,Strong Buy,60.0,0.07,0.25,0.25
+BET,Consumer Cyclical,Strong Buy,60.0,0.12,0.2,0.2
+BRI,Materials,Strong Buy,60.0,1.3,1.78,1.7
+AHC,Health Care,Strong Buy,60.0,0.3,0.45,0.45
+GSS,Health Care,Strong Buy,60.0,0.48,0.75,0.75
+MME,Financial,Strong Buy,60.0,0.14,0.21,0.21
+HGO,Materials,Strong Buy,60.0,0.04,0.08,0.07
+USL,Materials,Strong Buy,60.0,0.23,,
+TTM,Materials,Strong Buy,60.0,0.38,1.18,1.18
+PEN,Energy,Hold,20.0,0.62,2.18,1.0
+HRZ,Materials,Strong Buy,60.0,0.04,0.12,0.12
+QPM,Materials,Strong Buy,60.0,0.04,0.13,0.1
+CYG,Industrials,Strong Buy,60.0,0.82,1.24,1.24
+CVV,Materials,Strong Buy,60.0,0.17,0.6,0.6
+CCR,Technology,Strong Buy,60.0,0.23,0.49,0.44
+EGL,Utilities,Strong Buy,60.0,0.26,0.36,0.36
+STM,Materials,Strong Buy,60.0,0.02,0.04,0.04
+PSC,Materials,Strong Buy,60.0,0.15,0.45,0.45
+EQR,Materials,Strong Buy,60.0,0.04,0.1,0.1
+M7T,Health Care,Strong Buy,60.0,0.35,1.37,0.78
+IMA,Materials,Strong Buy,60.0,0.08,0.14,0.14
+GLN,Materials,Strong Buy,60.0,0.09,0.18,0.18
+KYP,Technology,Strong Buy,60.0,0.2,0.29,0.27
+AVL,Materials,Strong Buy,60.0,0.01,0.06,0.06
+AL3,Industrials,Strong Buy,60.0,0.16,0.4,0.3
+EXP,Consumer Cyclical,Strong Buy,60.0,0.11,0.32,0.2
+AV1,Technology,Strong Buy,60.0,0.1,0.14,0.14
+BMT,Health Care,Strong Buy,60.0,0.28,0.5,0.5
+CNB,Materials,Strong Buy,60.0,0.34,1.27,0.7
+AOF,Real Estate,Hold,20.0,0.47,0.49,0.49
+PNC,Financial,Strong Buy,60.0,0.48,0.8,0.8
+LRK,Consumer Defensive,Strong Buy,60.0,0.74,1.5,1.5
+AHX,Consumer Cyclical,Strong Buy,60.0,0.41,0.63,0.63
+NUZ,Health Care,Strong Buy,60.0,0.14,0.46,0.42
+MVP,Health Care,Strong Buy,60.0,0.65,0.8,0.8
+PPE,Industrials,Strong Buy,60.0,0.65,1.06,1.05
+CLV,Industrials,Strong Buy,60.0,0.42,,
+MAP,Health Care,Strong Buy,60.0,0.15,0.32,0.26
+ASN,Materials,Hold,20.0,0.05,,
+SFX,Materials,Hold,20.0,0.17,0.19,0.19
+B4P,Technology,Strong Buy,60.0,1.39,2.15,2.15
+SDV,Materials,Strong Buy,60.0,0.34,0.6,0.6
+CY5,Materials,Strong Buy,60.0,0.07,0.3,0.25
+HAS,Materials,Hold,20.0,0.33,0.35,0.14
+HMY,Financial,Strong Buy,60.0,0.6,1.02,1.02
+EGG,Communication Services,Strong Buy,60.0,0.69,1.52,1.52
+BOL,Industrials,Strong Buy,60.0,1.46,,
+EPY,Financial,Strong Buy,60.0,0.22,0.3,0.3
+PIQ,Health Care,Strong Sell,60.0,0.42,0.43,0.43
+PLY,Communication Services,Strong Buy,60.0,0.14,0.5,0.5
+MSV,Materials,Strong Buy,60.0,0.28,0.45,0.45
+IPD,Health Care,Strong Buy,60.0,0.03,0.16,0.09
+VHM,Materials,Strong Buy,60.0,0.23,1.05,1.05
+SPG,Consumer Defensive,Strong Buy,60.0,0.32,0.9,0.9
+MDR,Health Care,Hold,20.0,0.09,0.19,0.1
+RAD,Health Care,Strong Buy,60.0,0.02,0.05,0.05
+DSK,Consumer Cyclical,Strong Buy,60.0,0.86,1.4,1.4
+TSO,Materials,Strong Buy,60.0,0.02,0.11,0.11
+BKT,Materials,Strong Buy,60.0,0.03,0.11,0.11
+GL1,Materials,Moderate Sell,40.0,0.15,0.2,0.14
+BCB,Materials,Strong Buy,60.0,0.4,,
+ATG,Consumer Cyclical,Hold,20.0,0.14,0.4,0.4
+WZR,Financial,Strong Buy,60.0,0.03,0.06,0.06
+NOU,Consumer Defensive,Strong Buy,60.0,0.14,0.24,0.24
+MX1,Health Care,Strong Buy,60.0,0.06,0.17,0.17
+BDM,Materials,Hold,20.0,0.03,0.05,0.05
+BML,Materials,Strong Buy,60.0,0.15,0.4,0.4
+PEX,Materials,Strong Buy,60.0,0.06,0.18,0.18
+WR1,Materials,Strong Buy,60.0,0.15,1.2,1.2
+SKY,Materials,Strong Buy,60.0,0.05,0.8,0.8
+LGP,Health Care,Strong Buy,60.0,0.1,0.18,0.18
+CCX,Consumer Cyclical,Strong Buy,60.0,0.09,0.25,0.25
+CVB,Health Care,Strong Buy,60.0,0.08,0.18,0.18
+STG,Industrials,Hold,20.0,0.46,0.52,0.52
+ELT,Materials,Strong Buy,60.0,0.1,0.3,0.3
+NUC,Consumer Defensive,Hold,20.0,0.19,0.14,0.14
+NXD,Technology,Strong Buy,60.0,0.12,0.35,0.35
+CHL,Communication Services,Strong Buy,60.0,0.35,1.05,1.05
+VMM,Materials,Strong Buy,60.0,0.28,0.5,0.5
+AW1,Materials,Strong Buy,60.0,0.04,0.2,0.2
+HCL,Technology,Strong Buy,60.0,0.2,0.35,0.35
+RDG,Industrials,Hold,20.0,0.01,0.01,0.01
+RMY,Communication Services,Strong Buy,60.0,0.03,0.1,0.1
+IME,Health Care,Strong Buy,60.0,0.33,0.75,0.75
+TRE,General,Strong Buy,60.0,0.28,1.5,1.5
+DXN,Technology,Strong Buy,60.0,0.03,0.08,0.08
