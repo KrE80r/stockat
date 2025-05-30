@@ -94,7 +94,7 @@ function initializeTable() {
         row['Sector'] || '',
         row['Recommendation'] || '',
         parseFloat(row['Confidence Level (%)']) || 0,
-        parseFloat(row['Current Price']) || 0, // <-- Added this line
+        parseFloat(row['Current Price (AU$)']) || 0,
         parseFloat(row['Predicted High Price in a Year']) || 0,
         parseFloat(row['Predicted Low Price in a Year']) || 0,
         '' // Actions column
