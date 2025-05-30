@@ -1,4 +1,4 @@
-// Global variables
+ // Global variables
 let stockData = [];
 let dataTable;
 
@@ -94,6 +94,7 @@ function initializeTable() {
         row['Sector'] || '',
         row['Recommendation'] || '',
         parseFloat(row['Confidence Level (%)']) || 0,
+        parseFloat(row['Current Price']) || 0, // <-- Added this line
         parseFloat(row['Predicted High Price in a Year']) || 0,
         parseFloat(row['Predicted Low Price in a Year']) || 0,
         '' // Actions column
@@ -437,4 +438,4 @@ function updateLastUpdated() {
 }
 
 // Export functions for global access
-window.showStockDetails = showStockDetails;  
+window.showStockDetails = showStockDetails; 
