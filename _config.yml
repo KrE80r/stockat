@@ -1,0 +1,20 @@
+title: AlphaPulse
+description: AI-Powered Australian Stock Recommendations
+url: "https://stockat.nazmy.io"
+baseurl: "/AlphaPulse"
+
+# GitHub Pages settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+
+# Custom settings
+author: AlphaPulse
+email: stockat@nazmy.io
+
+# Exclude files from Jekyll processing
+exclude:
+  - README.md
+  - node_modules/
+  - vendor/ 
