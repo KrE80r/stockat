@@ -35,7 +35,7 @@ async function loadStockData() {
         Papa.parse(csvData, {
             header: true,
             skipEmptyLines: true,
-            complete: function(results) {
+            complete: async function(results) {
                 if (results.errors.length > 0) {
                     console.error('CSV parsing errors:', results.errors);
                 }
@@ -52,7 +52,7 @@ async function loadStockData() {
                 initializeTable();
                 populateFilters();
                 updateStatistics();
-                updateLastUpdated();
+                await updateLastUpdated();
             },
             error: function(error) {
                 throw new Error('Failed to parse CSV: ' + error.message);
@@ -446,18 +446,43 @@ function showStockDetails(symbol) {
     modal.show();
 }
 
-// Update last updated timestamp
-function updateLastUpdated() {
-    const now = new Date();
-    const formatted = now.toLocaleDateString('en-AU', {
-        year: 'numeric',
-        month: 'short',
-        day: 'numeric',
-        hour: '2-digit',
-        minute: '2-digit'
-    });
-    
-    document.getElementById('lastUpdated').textContent = formatted;
+// Update last updated timestamp with CSV file generation time
+async function updateLastUpdated() {
+    try {
+        // Get the last modified date of the CSV file
+        const response = await fetch('stock_recommendations.csv', { method: 'HEAD' });
+        if (!response.ok) {
+            throw new Error(`HTTP error! status: ${response.status}`);
+        }
+        
+        // Get the last modified date from the response headers
+        const lastModified = response.headers.get('last-modified');
+        const fileDate = lastModified ? new Date(lastModified) : new Date();
+        
+        // Format the date
+        const formatted = fileDate.toLocaleDateString('en-AU', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        
+        document.getElementById('lastUpdated').textContent = formatted;
+    } catch (error) {
+        console.error('Error getting CSV file date:', error);
+        // Fallback to current date if there's an error
+        const now = new Date();
+        const formatted = now.toLocaleDateString('en-AU', {
+            year: 'numeric',
+            month: 'short',
+            day: 'numeric',
+            hour: '2-digit',
+            minute: '2-digit'
+        });
+        
+        document.getElementById('lastUpdated').textContent = formatted + ' (estimated)';
+    }
 }
 
 // Export functions for global access
