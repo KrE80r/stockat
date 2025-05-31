@@ -531,7 +531,27 @@ function showStockDetails(symbol) {
 // Update last updated timestamp with CSV file generation time
 async function updateLastUpdated() {
     try {
-        // Get the last modified date of the CSV file
+        // First check if any stock data has a Generated Date field
+        const generatedDate = stockData.length > 0 && stockData[0]['Generated Date'];
+        
+        if (generatedDate) {
+            // Use the Generated Date field from the CSV
+            const fileDate = new Date(generatedDate);
+            
+            // Format the date
+            const formatted = fileDate.toLocaleDateString('en-AU', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+            
+            document.getElementById('lastUpdated').textContent = formatted;
+            return;
+        }
+        
+        // Fallback to the last modified date of the CSV file if no Generated Date field
         const response = await fetch('stock_recommendations.csv', { method: 'HEAD' });
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
