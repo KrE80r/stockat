@@ -89,16 +89,40 @@ function showError(message) {
 // Initialize DataTable
 function initializeTable() {
     // Prepare data for DataTable
-    const tableData = stockData.map(row => [
-        row['Stock Symbol'] || '',
-        row['Sector'] || '',
-        row['Recommendation'] || '',
-        parseFloat(row['Confidence Level (%)']) || 0,
-        parseFloat(row['Current Price (AU$)']) || 0,
-        parseFloat(row['Predicted High Price in a Year']) || 0,
-        parseFloat(row['Predicted Low Price in a Year']) || 0,
-        '' // Actions column
-    ]);
+    const tableData = stockData.map(row => {
+        const currentPrice = parseFloat(row['Current Price (AU$)']) || 0;
+        const highPrice = parseFloat(row['Predicted High Price in a Year']) || 0;
+        const lowPrice = parseFloat(row['Predicted Low Price in a Year']) || 0;
+        
+        // Calculate average target price
+        let avgTargetPrice = 0;
+        if (highPrice > 0 && lowPrice > 0) {
+            avgTargetPrice = (highPrice + lowPrice) / 2;
+        } else if (highPrice > 0) {
+            avgTargetPrice = highPrice;
+        } else if (lowPrice > 0) {
+            avgTargetPrice = lowPrice;
+        }
+        
+        // Calculate price potential (delta)
+        let pricePotential = 0;
+        let pricePotentialPercent = 0;
+        if (currentPrice > 0 && avgTargetPrice > 0) {
+            pricePotential = avgTargetPrice - currentPrice;
+            pricePotentialPercent = (pricePotential / currentPrice) * 100;
+        }
+        
+        return [
+            row['Stock Symbol'] || '',
+            row['Sector'] || '',
+            row['Recommendation'] || '',
+            parseFloat(row['Confidence Level (%)']) || 0,
+            currentPrice,
+            avgTargetPrice,
+            pricePotentialPercent, // Store the percentage for sorting
+            '' // Actions column
+        ];
+    });
 
     // Initialize DataTable
     dataTable = $('#stockTable').DataTable({
@@ -168,11 +192,11 @@ function initializeTable() {
                 }
             },
             {
-                targets: 5, // Target High column
+                targets: 5, // Average Target Price column
                 render: function(data, type, row) {
                     if (type === 'display') {
                         if (data && data > 0) {
-                            return `<span class="price-target price-high">$${data.toFixed(2)}</span>`;
+                            return `<span class="price-target price-avg">$${data.toFixed(2)}</span>`;
                         }
                         return '<span class="text-muted">N/A</span>';
                     }
@@ -180,11 +204,14 @@ function initializeTable() {
                 }
             },
             {
-                targets: 6, // Target Low column
+                targets: 6, // Price Potential column
                 render: function(data, type, row) {
                     if (type === 'display') {
-                        if (data && data > 0) {
-                            return `<span class="price-target price-low">$${data.toFixed(2)}</span>`;
+                        if (data !== 0) {
+                            const isPositive = data > 0;
+                            const colorClass = isPositive ? 'text-success' : 'text-danger';
+                            const icon = isPositive ? '<i class="fas fa-arrow-up me-1"></i>' : '<i class="fas fa-arrow-down me-1"></i>';
+                            return `<span class="${colorClass} fw-bold">${icon}${Math.abs(data).toFixed(1)}%</span>`;
                         }
                         return '<span class="text-muted">N/A</span>';
                     }
@@ -381,8 +408,32 @@ function showStockDetails(symbol) {
     
     const modalContent = document.getElementById('modalContent');
     const confidence = parseFloat(stock['Confidence Level (%)']) || 0;
+    const currentPrice = parseFloat(stock['Current Price (AU$)']) || 0;
     const highPrice = parseFloat(stock['Predicted High Price in a Year']) || 0;
     const lowPrice = parseFloat(stock['Predicted Low Price in a Year']) || 0;
+    
+    // Calculate average target price
+    let avgTargetPrice = 0;
+    if (highPrice > 0 && lowPrice > 0) {
+        avgTargetPrice = (highPrice + lowPrice) / 2;
+    } else if (highPrice > 0) {
+        avgTargetPrice = highPrice;
+    } else if (lowPrice > 0) {
+        avgTargetPrice = lowPrice;
+    }
+    
+    // Calculate price potential (delta)
+    let pricePotential = 0;
+    let pricePotentialPercent = 0;
+    if (currentPrice > 0 && avgTargetPrice > 0) {
+        pricePotential = avgTargetPrice - currentPrice;
+        pricePotentialPercent = (pricePotential / currentPrice) * 100;
+    }
+    
+    // Determine if price potential is positive or negative
+    const isPotentialPositive = pricePotentialPercent > 0;
+    const potentialColorClass = isPotentialPositive ? 'text-success' : 'text-danger';
+    const potentialIcon = isPotentialPositive ? '<i class="fas fa-arrow-up me-1"></i>' : '<i class="fas fa-arrow-down me-1"></i>';
     
     modalContent.innerHTML = `
         <div class="row g-4">
@@ -409,8 +460,39 @@ function showStockDetails(symbol) {
                 </div>
             </div>
             <div class="col-12">
+                <h6 class="fw-bold text-primary">
+                    <i class="fas fa-dollar-sign me-2"></i>Price Analysis
+                </h6>
+                <div class="row g-3 mb-4">
+                    <div class="col-md-4">
+                        <div class="bg-light p-3 rounded">
+                            <div class="text-primary fw-bold">Current Price</div>
+                            <div class="h4 mb-0 price-current">
+                                ${currentPrice > 0 ? '$' + currentPrice.toFixed(2) : 'N/A'}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="bg-light p-3 rounded">
+                            <div class="text-primary fw-bold">Avg Target Price</div>
+                            <div class="h4 mb-0 price-target price-avg">
+                                ${avgTargetPrice > 0 ? '$' + avgTargetPrice.toFixed(2) : 'N/A'}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="bg-light p-3 rounded">
+                            <div class="fw-bold">Price Potential</div>
+                            <div class="h4 mb-0 ${potentialColorClass}">
+                                ${pricePotentialPercent !== 0 ? potentialIcon + Math.abs(pricePotentialPercent).toFixed(1) + '%' : 'N/A'}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
                 <h6 class="fw-bold text-warning">
-                    <i class="fas fa-target me-2"></i>Price Targets (12 months)
+                    <i class="fas fa-target me-2"></i>Price Target Range (12 months)
                 </h6>
                 <div class="row g-3">
                     <div class="col-md-6">
