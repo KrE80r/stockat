@@ -355,9 +355,9 @@ function animateNumber(elementId, targetValue, suffix = '') {
 function getRecommendationBadge(recommendation) {
     const classMap = {
         'Strong Buy': 'rec-strong-buy',
-        'Moderate Buy': 'rec-moderate-buy',
+        'Buy': 'rec-moderate-buy',
         'Hold': 'rec-hold',
-        'Moderate Sell': 'rec-moderate-sell',
+        'Sell': 'rec-moderate-sell',
         'Strong Sell': 'rec-strong-sell'
     };
     
