@@ -318,7 +318,7 @@ function populateFilters() {
 // Update statistics
 function updateStatistics() {
     const totalStocks = stockData.length;
-    const strongBuys = stockData.filter(row => row['Recommendation'] === 'Strong Buy').length;
+    const buys = stockData.filter(row => row['Recommendation'] === 'Buy').length;
     const confidenceValues = stockData
         .map(row => parseFloat(row['Confidence Level (%)']))
         .filter(val => !isNaN(val));
@@ -329,7 +329,7 @@ function updateStatistics() {
 
     // Update DOM elements with animation
     animateNumber('total-stocks', totalStocks);
-    animateNumber('strong-buys', strongBuys);
+    animateNumber('strong-buys', buys);
     animateNumber('avg-confidence', avgConfidence, '%');
 }
 
@@ -354,11 +354,9 @@ function animateNumber(elementId, targetValue, suffix = '') {
 // Get recommendation badge HTML
 function getRecommendationBadge(recommendation) {
     const classMap = {
-        'Strong Buy': 'rec-strong-buy',
-        'Buy': 'rec-moderate-buy',
+        'Buy': 'rec-buy',
         'Hold': 'rec-hold',
-        'Sell': 'rec-moderate-sell',
-        'Strong Sell': 'rec-strong-sell'
+        'Sell': 'rec-sell'
     };
     
     const className = classMap[recommendation] || 'rec-hold';
